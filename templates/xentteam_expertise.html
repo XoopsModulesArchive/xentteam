@@ -1,0 +1,31 @@
+<{include file="db:xentteam_header.html"}>
+
+<div class="sectionTitle"><{$expertiseTitle}></div><br><br>
+
+<div class="sectionText"><{$expertiseText}></div><br>
+
+<table width="100%">
+	<{foreach item=expcat from=$expcat}>
+    	<{if $expcat.display == 0}>
+        	<tr>
+            	<td id="expertise"><div class="expertiseSectionTitle"><{$expcat.name}></div>
+            		<div class="expertiseSectionDesc">
+	                    <{foreach item=arr from=$expcat.item}>
+							<li class="expertiseSectionDesc"><{$arr}></li>
+						<{/foreach}>
+					</div>
+                </td>
+        <{else}>
+        		<td id="expertise"><div class="expertiseSectionTitle"><{$expcat.name}></div>
+        			<div class="expertiseSectionDesc">
+		                <{foreach item=arr from=$expcat.item}>
+		                    <li class="expertiseSectionDesc"><{$arr}></li>
+		                <{/foreach}>
+		            </div>
+                </td>
+        	</tr>
+        <{/if}>
+    <{/foreach}>
+</table>
+
+<{include file="db:xentteam_footer.html"}>

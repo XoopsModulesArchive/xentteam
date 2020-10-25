@@ -1,0 +1,13 @@
+<br><br> 
+<table width="100%">
+    <tr>
+        <td width="90%" align="center" id="headerFooterMenu">
+            <div class="headerFooterMenu">|&nbsp;
+                <{foreach item=displayed_groups from=$displayed_groups}>
+                    <a href="groups.php?id=<{$displayed_groups.ID_GROUP}>"><{$displayed_groups.name}></a>&nbsp;|&nbsp;
+                <{/foreach}>
+                <a href="expertise.php"><{$menuExpertise}></a>&nbsp;|
+            </div>
+        <td>
+    <tr>
+</table>

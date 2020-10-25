@@ -1,0 +1,29 @@
+<{include file="db:xentteam_header.html"}>
+
+<div class="sectionTitle"><{$groupTitle}></div><br><br>
+
+
+<{foreach item=users from=$users}>
+	<table width="100%">
+	    <tr>
+        	<{if $users.pictpro != "" && $users.pictprowhereto == 1}>
+           		<td id="usersDisplayed" width="20%" align="center">
+                	<img src="<{$upload_dir}>/<{$users.pictpro}>"></img>
+            	</td>
+            <{/if}>
+            <td id="usersDisplayed">
+            	<div class="userDisplayedName"><{$users.name}><{$users.title}> - <{$users.job}></div><br>
+                <div class="userDisplayedCareerSummary"><{$users.career_summary}></div>
+            </td>
+            <{if $users.pictpro != "" && $users.pictprowhereto == 2}>
+           		<td id="usersDisplayed" width="20%" align="center">
+                	<img src="<{$upload_dir}>/<{$users.pictpro}>"></img>
+            	</td>
+            <{/if}>
+	    </tr>
+    </table>
+    <br>
+<{/foreach}>
+
+
+<{include file="db:xentteam_footer.html"}>

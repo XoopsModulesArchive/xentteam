@@ -1,0 +1,158 @@
+/* Created by TopStyle Pro Trial Version - www.bradsoft.com */
+
+
+
+.expertiseSectionDesc{
+
+	color: #394F76;
+
+	
+
+	font-size: 13px;	
+
+}
+
+
+
+.expertiseSectionTitle{
+
+	color: #394F76;
+
+	
+
+	font-size: 16px;
+
+	font-weight: bold;	
+
+}
+
+
+
+.headerFooterMenu{
+
+	color: White;
+
+	
+
+	font-size: 11px;
+
+	font-weight: bold;
+
+	
+
+	
+
+	padding-bottom: 5px;
+
+	padding-top: 5px;
+
+}
+
+
+
+.headerFooterMenu a{
+
+	color: White;
+
+	
+
+	font-size: 11px;
+
+	font-weight: bold;
+
+	
+
+	
+
+	padding-bottom: 5px;
+
+	padding-top: 5px;
+
+}
+
+
+
+.sectionText{
+
+	color: #394F76;
+
+	
+
+	font-size: 13px;
+
+}
+
+
+
+
+
+.sectionTitle{
+
+	color: #394F76;
+
+	
+
+	font-size: 18px;
+
+	font-weight: bold;
+
+}
+
+
+
+.userDisplayedCareerSummary{
+
+	color: #394F76;
+
+	font-size: 13px;	
+	
+	padding-left: 10px;
+
+}
+
+
+
+.userDisplayedName{
+
+	color: #394F76;
+
+	
+
+	font-size: 16px;
+
+	font-weight: bold;
+
+	font-variant: small-caps;
+	
+	padding-left: 10px;
+
+}
+
+
+
+td#headerFooterMenu{
+
+	background-color: #394F76;
+
+}
+
+
+
+td#usersDisplayed{
+
+	background-color: #EFEFEF;
+
+}
+
+
+
+td#expertise{
+
+	background-color: #FAFAFA;
+
+	padding-bottom: 50px;
+
+	width: 50%;
+
+}
+
